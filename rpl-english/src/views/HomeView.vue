@@ -1,9 +1,19 @@
+<template>
+  <h1>
+    Hello world
+    <div>Wow</div>
+  </h1>
+</template>
+
 <script setup>
-import TheWelcome from '../components/TheWelcome.vue'
+
 </script>
 
-<template>
-  <main>
-    <TheWelcome />
-  </main>
-</template>
+<style lang="scss" scoped>
+h1 {
+  width: 100px;
+  div{
+    color: antiquewhite;
+  }
+}
+</style>
